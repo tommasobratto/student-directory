@@ -1,14 +1,27 @@
 student_count = 9
+#let's put all students into an array
+students = [
+ "Dr. Hannibal Lecter",
+ "Darth Vader",
+ "Nurse Ratched",
+ "Michael Corleone",
+ "Alex De Large",
+ "The Alien",
+ "Terminator",
+ "Freddy Kruger",
+ "The Joker",
+  ]
+#and then print them
 puts "The students of my cohort at Makers Academy"
 puts "-------------"
-puts "Dr. Hannibal Lecter"
-puts "Darth Vader"
-puts "Nurse Ratched"
-puts "Michael Corleone"
-puts "Alex De Large"
-puts "The Alien"
-puts "Terminator"
-puts "Freddy Kruger"
-puts "The Joker"
+puts students[0]
+puts students[1]
+puts students[2]
+puts students[3]
+puts students[4]
+puts students[5]
+puts students[6]
+puts students[7]
+puts students[8]
 #Finally, we print the total count
 puts "Overall, we have #{student_count} great students"
